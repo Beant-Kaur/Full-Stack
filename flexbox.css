@@ -1,0 +1,12 @@
+.container{
+    display:flex;
+    justify-content: space-between;
+    //align-items: center;
+    height: 50vh;een
+    
+}
+ .Box{
+    padding: 20px;
+    background: lightblue;
+    margin: 5px;
+ }
