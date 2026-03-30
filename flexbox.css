@@ -1,26 +1,31 @@
 .container{
     display:flex;
-    align-items: ; 
-    height: 1000px;
+    align-items:row ; 
+    height: 10px;
     flex-direction:row;
-      justify-content:end;
-
+    justify-content:center;
+    /* padding: 20px;
+    background: lightblue;
+    margin: 5px; */
+     justify-content:space-between; 
     
 }
- .container{
-    padding: 20px;
-    background: lightblue;
-    margin: 5px;
-    /* flex-wrap: wrap-reverse;   */
-}
 
- .box{
+.box{
      height: 50px;
      width: 50px;
      margin:20px;
      border:2px solid black;
-     padding: 25PX;
-     /* justify-content:space-around; */
+     padding: 25Px;
+    
+ /* .container{
+    padding: 20px;
+    background: lightblue;
+    margin: 5px; */
+    /* flex-wrap: wrap-reverse;    */
+}
+
+    
 
  }
  
