@@ -1,23 +1,26 @@
 .container{
     display:flex;
-    justify-content: space-between;
-    align-items: center;
+    align-items: ; 
     height: 1000px;
     flex-direction:row;
+      justify-content:end;
+
     
 }
  .container{
     padding: 20px;
     background: lightblue;
     margin: 5px;
- }
+    /* flex-wrap: wrap-reverse;   */
+}
 
  .box{
      height: 50px;
      width: 50px;
      margin:20px;
      border:2px solid black;
-     padding-top: 25PX;
+     padding: 25PX;
+     /* justify-content:space-around; */
 
  }
  
