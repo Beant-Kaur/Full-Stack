@@ -1,12 +1,74 @@
 .container{
     display:flex;
     justify-content: space-between;
-    //align-items: center;
-    height: 50vh;een
+    align-items: center;
+    height: 1000px;
+    flex-direction:row;
     
 }
- .Box{
+ .container{
     padding: 20px;
     background: lightblue;
     margin: 5px;
  }
+
+ .box{
+     height: 50px;
+     width: 50px;
+     margin:20px;
+     border:2px solid black;
+     padding-top: 25PX;
+
+ }
+ 
+ #box1{
+    /* padding-top: 25PX; */
+    background: white;
+   
+ } 
+ 
+ #box2{
+    /* padding: 5PX; */
+    background: lightyellow;
+ }
+
+ #box3{
+    /* padding: 5PX; */
+    background: lightpink;
+ }
+    
+ #box4{
+    /* padding: 5PX; */
+    background: lightgreen;
+ }
+ 
+ #box5{
+    /* padding: 5PX; */
+    background: lightcoral;
+ }
+ 
+ #box6{
+    /* padding: 5PX; */
+    background: lightseagreen;
+ }
+ 
+ #box7{
+    /* padding: 5PX; */
+    background: lightsalmon;
+ }
+ 
+ #box8{
+    /* padding: 5PX; */
+    background: lightgoldenrodyellow;
+ }
+ 
+ #box9{
+    /* padding: 5PX; */
+    background: lightcoral;
+ }
+ 
+ #box10{
+    /* padding: 5PX; */
+    background: lightslategrey;
+ }
+ 
