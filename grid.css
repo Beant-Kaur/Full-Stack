@@ -1,0 +1,24 @@
+*{ margin:0;
+padding:0;
+box-sizing: border-box;
+}
+body{
+    height:100vh;
+    width:100vw;
+}
+.container{
+    display:grid;
+    height:100%;
+    background: skyblue;
+     width:100%; 
+     padding:4rem ;
+}
+.box{
+     /* height: 50px; 
+     width: 50px;
+     margin:20px; */
+     border:2px solid black;
+     /* padding: 2px; */
+     background-color: lightyellow;
+     row-gap: 1 rem;
+}
