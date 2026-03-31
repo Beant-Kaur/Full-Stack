@@ -14,8 +14,8 @@ body{
      padding:4rem;
     row-gap: 1rem;
     column-gap: 1rem;
-    grid-template-rows: 100px 100px;
-    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
 .box{
      /* height: 50px; 
@@ -25,4 +25,16 @@ body{
      /* padding: 2px; */
      background-color: lightyellow;
      /* row-gap: 3rem; */
+}
+.header{
+     /* height: 50px; 
+     width: 50px;
+     margin:20px; */
+     border:2px solid black;
+     /* padding: 2px; */
+     background-color: lightyellow;
+     /* row-gap: 3rem; */
+
+    grid-column-start:1;
+    grid-column-end:4;
 }
