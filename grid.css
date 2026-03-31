@@ -45,3 +45,11 @@ body{
      grid-column-start:-4;
       grid-column-end:-1;
 }
+.Sidebar{
+     border:2px solid black;
+     background-color: lightyellow;
+     /* grid-column-start:1; */
+     grid-row-start:2;
+      grid-row-end:4;
+
+} 
