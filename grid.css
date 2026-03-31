@@ -12,6 +12,9 @@ body{
     background: skyblue;
      width:100%; 
      padding:4rem;
+    row-gap: 1rem;
+    grid-template-rows: 100px 100px;
+    grid-template-columns: 100px 100px 100px;
 }
 .box{
      /* height: 50px; 
@@ -20,5 +23,5 @@ body{
      border:2px solid black;
      /* padding: 2px; */
      background-color: lightyellow;
-     row-gap: 1 rem;
+     /* row-gap: 3rem; */
 }
