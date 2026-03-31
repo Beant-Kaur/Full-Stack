@@ -1,8 +1,9 @@
 .container{
     display:flex;
-    align-items:; 
+    align-content:start; 
+    align-content:start;
     height: 500px;
-    flex-direction:column;
+    flex-direction:row;
     /* justify-content:center; */ 
     /* padding: 20px;
     background: lightblue;
@@ -27,6 +28,7 @@
     
  #box1{
     /* padding-top: 25PX; */
+    order:1;
     background: white;
    
  } 
