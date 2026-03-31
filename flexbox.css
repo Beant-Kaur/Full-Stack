@@ -10,7 +10,8 @@
     margin: 5px; */
      /* justify-content:space-between;  */
      background: skyblue;
-     flex-wrap: wrap;
+     /* flex-wrap: wrap; */
+     width: 2000px; 
     
 }
 
@@ -20,7 +21,6 @@
      margin:20px;
      border:2px solid black;
      padding: 25px;
-    
 
     /* flex-wrap: wrap-reverse;    */
 }
@@ -28,9 +28,11 @@
     
  #box1{
     /* padding-top: 25PX; */
-    order:1;
+    /* order:1; */
     background: white;
-   
+  
+      /* flex-grow: 1;  */
+      align-self: center;
  } 
  
  #box2{
@@ -51,7 +53,9 @@
  #box5{
     /* padding: 5PX; */
     background: lightcoral;
- }
+     flex-shrink: 3;
+    
+   }
  
  #box6{
     /* padding: 5PX; */
@@ -76,5 +80,6 @@
  #box10{
     /* padding: 5PX; */
     background: lightslategrey;
+    flex-shrink: 4;
  }
  
